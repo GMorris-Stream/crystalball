@@ -4,4 +4,4 @@ require_relative '../spec/rails_helper'
 
 SimpleCov.add_filter 'features/support/'
 
-Dir[Pathname(__dir__).join('support', '**', '*.rb')].each { |f| require f }
+Dir[Pathname(__dir__).join('support', '**', '*.rb')].sort.each { |f| require f }

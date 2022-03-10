@@ -20,3 +20,4 @@ tables_map.yml
 /.idea
 .ruby-version
 .ruby-gemset
+/.vscode
